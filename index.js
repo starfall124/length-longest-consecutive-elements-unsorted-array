@@ -1,10 +1,11 @@
 const longestConsecutiveLength = (nums) => {
+  let length = nums.length;
+  if (length === 0) return 0;
   let map = {};
   let max = 0;
   let start = 0;
   let end = 0;
   let num = 0;
-  let length = nums.length;
   for (let i = 0; i < length; i++) {
     num = nums[i];
     if (map[num]) continue;
