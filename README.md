@@ -19,7 +19,7 @@ console.log("-------------------------------------------");
 ```
 # Steps to solve this problem
 
-1. Return 0 if the given array is empty.
+1. Return `0` if the given array is empty.
 2. Declare five variables, `map`, `max`, `start`, `end`, and `num`, and set them `{}`, `0`, `0`, `0`, and `0`, respectively.
 3. Use a for loop with index `i` and copy the value of the number with index `i` to the `num`.
 4. Check if the `num` property of `map` object is defined or undefined.
