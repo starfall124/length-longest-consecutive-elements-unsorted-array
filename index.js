@@ -1,4 +1,4 @@
-const longestConsecutive = (nums) => {
+const longestConsecutiveLength = (nums) => {
   let map = {};
   let max = 0;
   let start = 0;
@@ -18,4 +18,8 @@ const longestConsecutive = (nums) => {
   return max;
 };
 
-console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));
+let nums = [100, 4, 200, 1, 3, 2];
+console.log("Input = [" + nums + "]\n");
+console.log("-----------------Result--------------------");
+console.log("Output = " + longestConsecutiveLength(nums));
+console.log("-------------------------------------------");
